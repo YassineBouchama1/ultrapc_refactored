@@ -1,0 +1,395 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block ;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, nav, section, article, aside, footer, hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+}
+
+/* 
+---------------------------------------------
+global styles
+--------------------------------------------- 
+*/
+html,
+body {
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+}
+
+
+.activee ,.nav-link:hover{
+  color: red !important;
+  border-top: solid red 2px !important;
+  border-bottom: solid red 2px !important;
+  padding: 10px !important;
+  border-radius: 20px !important;
+}
+
+/* 
+---------------------------------------------
+banner
+--------------------------------------------- 
+*/
+
+.main-banner {
+  border-bottom: 3px dotted #eee;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+---------------------------------------------
+form
+--------------------------------------------- 
+*/
+
+.subscribe {
+  margin-top: 90px;
+}
+
+.subscribe .section-heading {
+  margin-bottom: 30px;
+}
+
+.subscribe .section-heading h2 {
+  line-height: 55px;
+}
+
+
+
+/* 
+---------------------------------------------
+footer
+--------------------------------------------- 
+*/
+
+footer {
+  margin-top: 60px;
+  padding: 60px 0px 30px 0px;
+  background-color: #2a2a2a;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  font-size: 14px;
+  color: #fff;
+  transition: all .3s;
+}
+
+footer ul li a:hover {
+  color: #aaa;
+}
+
+footer h4 {
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .under-footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+  border-top: 1px solid rgba(250,250,250,0.3);
+}
+
+footer .under-footer ul {
+  margin-top: 20px;
+}
+
+footer .under-footer ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+footer .under-footer ul li a {
+  font-size: 22px;
+}
+
+footer .under-footer p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+footer .under-footer a {
+  color: #cff;
+}
+
+footer .under-footer a:hover {
+  color: #c66;
+}
+
+
+/* 
+---------------------------------------------
+Products Page
+--------------------------------------------- 
+*/
+
+.page-heading {
+  margin-top: 160px;
+  margin-bottom: 30px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-index {
+  margin-top: 160px;
+  margin-bottom: 30px;
+
+}
+.page-dashboard {
+  margin-top: 90px;
+  margin-bottom: 30px;
+
+}
+
+.page-heading .inner-content {
+  padding: 150px 0px;
+  text-align: center;
+}
+
+.page-heading .inner-content h2 {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.page-heading .inner-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+}
+
+#products .section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+
+
+
+
+
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+
+.video{
+  width: 640px;
+  height: 360px;
+  border-radius: 20px;
+  
+}
+@media (max-width: 767px) {
+  .video{
+    width: 410px !important;
+    height: 260px;
+    
+    
+  }
+  .main-banner .left-content .thumb .inner-content {
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .subscribe form button {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h4 {
+    margin-top: 30px;
+  }
+  .small-text {
+    font-size: 14px; /* Define the smaller font size for smaller screens */
+  }
+}
+
+
+@media (max-width: 576px) {
+  .small-text {
+    font-size: 12px; /* Define the smaller font size for smaller screens */
+  }
+}
+
+
+
+
+     /* Optional: Custom styling for the carousel */
+     .carousel-item {
+      height: 450px; /* Set your desired height */
+    }
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Image will cover the entire slide */
+    }
+      /* Custom styles for Next and Previous buttons */
+      .carousel-control-prev,
+    .carousel-control-next {
+      color: #0b0b0b; /* Change the color of the text */
+    }
+
+    /* Change color on hover/focus for Next and Previous buttons */
+    .carousel-control-prev:hover,
+    .carousel-control-prev:focus,
+    .carousel-control-next:hover,
+    .carousel-control-next:focus {
+      color: #0b0b0b; /* Change the color of the text on hover/focus */
+      text-decoration: none; /* Remove underline */
+      outline: 0; /* Remove outline */
+    }
+        /* Custom styles for carousel control icons */
+        .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      fill: #0b0b0b; /* Change the color of the control icons */
+    }
+
+
+    .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header header header'
+    'menu main main main main main'
+    
+    'footer footer footer footer footer footer';
+  gap: 47px;
+  padding: 10px;
+}
+
+.grid-container > div {
+ 
+  padding: 20px 0;
+
+}
