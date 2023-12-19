@@ -158,7 +158,7 @@ if (isset($_POST['sing_out'])) {
   <?php include 'layout/footer.php' ; ?>
 </div>
 
-<script src="./auth/create.js"></script>
+<script src="./js/create.js"></script>
 
     
 

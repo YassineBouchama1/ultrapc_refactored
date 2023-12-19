@@ -94,7 +94,7 @@ async function onSubmit() {
         }
     };
 
-    xhttp.open("POST", "http://localhost/brief-7/auth/create.php", true);
+    xhttp.open("POST", "http://localhost/brief8refactore/backend/routes/auth/create.php", true);
     xhttp.send(formData);
 }
     

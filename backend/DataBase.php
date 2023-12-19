@@ -13,7 +13,7 @@ class Database {
     private $username = 'root';
     private $password = '';
     public $connection;
-
+    private static $instance;
     public function __construct() {
         $dsn = "mysql:host={$this->host};dbname={$this->dbname};charset=utf8mb4";
 
@@ -25,7 +25,12 @@ class Database {
             $this->connection = null;
         }
     }
-
+    public static function getInstance() {
+        if (!self::$instance) {
+            self::$instance = new Database();
+        }
+        return self::$instance;
+    }
     public function getConnection() {
         return $this->connection;
     }

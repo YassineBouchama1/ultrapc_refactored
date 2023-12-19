@@ -1,5 +1,5 @@
 <?php
-include 'backend/DataBase.php'; 
+include '../../DataBase.php'; 
 
 
 // Validate data (you may want to add more validation)
@@ -36,7 +36,7 @@ try {
         echo json_encode(array("error" => "User already exists.", "status" => 401));
     } else {
         // SQL query to insert data into the table
-        session_start();
+        // session_start();
 
             $data = new Users() ;
 
